@@ -1,0 +1,60 @@
+* {
+  border: none;
+  border-radius: 1px;
+  min-height: 1px;
+  font-family: Berkeley Mono Variable;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#custom-logo {
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+
+#workspaces {
+  padding-left: 1em;
+}
+
+#workspaces button {
+  all: initial;
+  padding: 3px 6px;
+  margin-right: 4px;
+}
+
+#cpu,
+#clock,
+#battery,
+#network,
+#bluetooth,
+#custom-power-menu {
+  min-width: 13px;
+  padding-left: 1em;
+}
+
+#clock {
+  padding-right: 1em;
+}
+
+tooltip {
+  padding: 3px;
+}
+
+tooltip label {
+  padding: 3px;
+}
+
+#custom-separator-left {
+  font-size: 13px;
+  padding-left: 0.6em;
+  padding-right: 1em;
+}
+
+#custom-separator-right {
+  font-size: 13px;
+  padding-left: 1em;
+}
+
+#pulseaudio {
+  padding-right: 1em;
+}
