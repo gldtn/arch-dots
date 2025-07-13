@@ -1,0 +1,16 @@
+{
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "  ",
+    "on-click": "GTK_THEME=Adwaita-dark pavucontrol",
+    "on-click-right": "pamixer -t",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ],
+    "ignored-sinks": [
+      "Easy Effects Sink"
+    ]
+  }
+}

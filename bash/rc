@@ -1,0 +1,9 @@
+# My modifications
+source ~/.config/bash/aliases
+source ~/.config/bash/functions
+source ~/.config/bash/prompt
+
+# Omarchy defaults
+source ~/.local/share/omarchy/default/bash/shell
+source ~/.local/share/omarchy/default/bash/init
+source ~/.local/share/omarchy/default/bash/envs

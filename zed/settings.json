@@ -1,0 +1,55 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+
+  "format_on_save": "on",
+  "ui_font_size": 14,
+  "buffer_font_family": "MonoLisa Variable",
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Frappé",
+    "dark": "Catppuccin Mocha"
+  },
+  "indent_guides": {
+    "enabled": true,
+    "draw_active_indent": true
+  },
+
+  // Bars
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "scrollbar": {
+    "show": "auto",
+    "cursors": false,
+    "git_diff": false,
+    "diagnostics": "none",
+    "search_results": false,
+    "selected_symbol": false
+  },
+
+  // Panels
+  "project_panel": {
+    "dock": "right"
+  },
+
+  "outline_panel": {
+    "dock": "right"
+  }
+}

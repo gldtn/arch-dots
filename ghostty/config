@@ -1,0 +1,24 @@
+# Font configuration
+font-family = MonoLisa Variable
+font-size = 12
+
+# Window settings
+window-padding-x = 14
+window-padding-y = 14
+window-decoration = false
+background-opacity = 0.98
+
+# Terminal settings
+term = xterm-256color
+
+# Close settings
+confirm-close-surface = false
+
+# Keybindings
+keybind = ctrl+f=toggle_fullscreen
+keybind = ctrl+shift+r=reload_config
+keybind = ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+
+# Color scheme from omarchy theme
+theme = catppuccin-mocha.conf
