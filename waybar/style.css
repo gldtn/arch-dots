@@ -1,2 +1,2 @@
-@import "../omarchy/current/theme/waybar.css";
-@import "../waybar/extra.css";
+@import "../omarchy/current/theme/waybar.css"; /* Base theme—don't edit this */
+@import "extra.css"; /* User customizations go here */

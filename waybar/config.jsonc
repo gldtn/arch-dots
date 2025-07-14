@@ -1,25 +1,7 @@
 {
   "include": [
-    "~/.config/waybar/modules/*"
-  ],
-  "layer": "top",
-  "position": "top",
-  "spacing": 0,
-  "height": 26,
-  "modules-left": [
-    "custom/logo",
-    "hyprland/workspaces",
-    "custom/separator-left",
-    "hyprland/window"
-  ],
-  "modules-center": [],
-  "modules-right": [
-    "pulseaudio",
-    "custom/pacman",
-    "network",
-    "bluetooth",
-    "cpu",
-    "custom/separator-right",
-    "clock"
+    "~/.config/waybar/settings.jsonc", // Bar properties (e.g., layer, position)
+    "~/.config/waybar/layout.jsonc", // Module ordering (left/center/right)
+    "~/.config/waybar/modules/*.jsonc" // All module definitions
   ]
 }

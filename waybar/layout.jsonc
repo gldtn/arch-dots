@@ -1,0 +1,18 @@
+{
+  "modules-left": [
+    "custom/logo",
+    "hyprland/workspaces",
+    "custom/separator-left",
+    "hyprland/window"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "pulseaudio",
+    "custom/pacman",
+    "network",
+    "bluetooth",
+    "cpu",
+    "custom/separator-right",
+    "clock"
+  ]
+}
