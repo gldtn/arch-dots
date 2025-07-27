@@ -1,4 +1,3 @@
-
 [Default Applications]
 image/png=imv.desktop
 image/jpeg=imv.desktop
@@ -28,3 +27,6 @@ video/x-ogm+ogg=mpv.desktop
 video/x-theora+ogg=mpv.desktop
 application/ogg=mpv.desktop
 x-scheme-handler/mailto=chromium.desktop
+
+[Added Associations]
+application/x-trash=dev.zed.Zed.desktop;

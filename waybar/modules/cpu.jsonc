@@ -1,7 +1,7 @@
 {
-  "cpu": {
-    "interval": 5,
-    "format": "󰍛",
-    "on-click": "ghostty -e btop"
+  "custom/cpu": {
+    "format": "",
+    "tooltip-format": "Open system monitor",
+    "on-click": "ghostty --title='System monitor' -e btop"
   }
 }

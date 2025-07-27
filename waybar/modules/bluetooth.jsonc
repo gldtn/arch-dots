@@ -1,9 +1,9 @@
 {
   "bluetooth": {
-    "format": "",
+    "format": "󰂳",
     "format-disabled": "󰂲",
-    "format-connected": "",
+    "format-connected": "󰂳",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "GTK_THEME=Adwaita-dark blueberry"
+    "on-click": "ghostty --title='Bluetooth manager' --class=org.omarchy.bluetui -e bluetui"
   }
 }

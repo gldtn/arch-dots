@@ -1,0 +1,10 @@
+{
+  "custom/media": {
+    "exec": "kitty --session spotify",
+    "format": "{icon} {text}",
+    "format-icons": {
+      "spotify": "",
+      "default": "🎵"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "wireplumber": {
+    "format": "{icon} {volume}%",
+    "format-muted": " ",
+    "on-click": "ghostty --title='Sound manager' --class='org.omarchy.wiremix' -e wiremix",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "format-icons": {
+      "default": [
+        "",
+        "",
+        " "
+      ]
+    },
+    "scroll-step": 5,
+    "tooltip": true
+  }
+}

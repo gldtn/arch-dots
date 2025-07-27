@@ -1,0 +1,26 @@
+{
+  "mpris": {
+    "format": "{status_icon} {artist} - <i>{title}</i> [{position}/{length}]",
+    "artist-len": 18,
+    "title-len": 18,
+    "format-paused": "{status_icon} {artist} - <i>{title}</i> [{position}/{length}]",
+    "player-icons": {
+      "default": "<span color='#a6e3a1'></span>",
+      "spotify_player": "<span color='#a6e3a1'></span>",
+      "mpv": "",
+      "brave": ""
+    },
+    "status-icons": {
+      "playing": "",
+      "paused": ""
+    },
+    "ignored-players": [
+      "brave"
+    ]
+  },
+  "custom/spotify-icon": {
+    "format": "<span color='#a6e3a1'></span>",
+    "on-click": "kitty --session spotify",
+    "tooltip-format": "Open Spotify"
+  }
+}

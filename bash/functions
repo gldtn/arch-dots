@@ -1,3 +1,9 @@
+fastfetch() {
+    clear
+    printf "\e[1A\e[2K"  # Move up 1 line and clear it
+    command fastfetch "$@"  # Run the actual fastfetch with any arguments
+}
+
 # Compression
 compress() { tar -czf "${1%/}.tar.gz" "${1%/}"; }
 alias decompress="tar -xzf"

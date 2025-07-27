@@ -1,6 +1,13 @@
 {
   "hyprland/window": {
     "format": "{}",
+    "icon": true,
+    "rewrite": {
+      "(.*) - Brave": "Brave",
+      "(.*) *.com": "󰖟 WebApp",
+      "(.*) *1Password": "1Password"
+    },
+    "max-length": 32,
     "separate-outputs": true
   }
 }

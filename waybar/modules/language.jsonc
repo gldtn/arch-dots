@@ -1,0 +1,9 @@
+{
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "US",
+    "format-en-alt-intl": "BR",
+    "keyboard-name": "mode-designs-m256w-h-keyboard",
+    "on-click": "hyprctl switchxkblayout current next"
+  }
+}

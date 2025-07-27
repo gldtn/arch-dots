@@ -1,10 +1,14 @@
 {
+  "custom/separator": {
+    "format": " ",
+    "tooltip": false
+  },
   "custom/separator-right": {
-    "format": "",
+    "format": " ",
     "tooltip": false
   },
   "custom/separator-left": {
-    "format": "",
+    "format": " ",
     "tooltip": false
   }
 }

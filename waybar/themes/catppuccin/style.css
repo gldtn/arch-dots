@@ -1,0 +1,115 @@
+@import "mocha.css";
+
+* {
+  font-family: MonoLisa Variable;
+  font-size: 14px;
+  min-height: 0;
+}
+
+#waybar {
+  background-color: @crust;
+  color: @text;
+}
+
+window#waybar {
+  min-height: 32px;
+}
+
+.module {
+  margin: 0.5rem 0;
+  padding: 0 0.6rem; /* Module space set here */
+  background-color: @base;
+  border-top: 1px solid @mantle;
+}
+
+#custom-logo {
+  color: @blue;
+  padding: 0;
+  border-top: none;
+  background: transparent;
+}
+
+/* Workspace module settings */
+
+#workspaces {
+  padding: 0;
+}
+
+#workspaces button {
+  color: @lavender;
+}
+
+#workspaces button.active {
+  color: @sky;
+  min-width: 18px; /* stop WS module from resizing */
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+#window {
+  font-weight: 600;
+  border-top: none;
+  padding: 0.4rem 0.8rem;
+  background: transparent;
+}
+
+#network,
+#wireplumber,
+#custom-pacman,
+#custom-spotify-icon {
+  padding-left: 3px; /* fix icon aligment */
+}
+
+/* Modules colors */
+
+#custom-expand-icon {
+  padding-right: 0;
+}
+
+#wireplumber {
+  color: @maroon;
+}
+
+#custom-pacman {
+  color: @peach;
+}
+
+#custom-cpu {
+  color: @yellow;
+}
+
+#network {
+  color: @green;
+}
+
+#bluetooth {
+  color: @blue;
+  padding-left: 1rem; /* Compensate for icon width */
+}
+
+#clock {
+  color: @lavender;
+}
+
+/* Modules separators */
+
+#custom-separator,
+#custom-separator-left,
+#custom-separator-right {
+  padding: 0;
+}
+
+#custom-separator {
+  background: transparent;
+}
+
+#custom-separator-left {
+  border-radius: 0.4rem 0px 0px 0.4rem;
+}
+#custom-separator-right {
+  border-radius: 0px 0.4rem 0.4rem 0px;
+}

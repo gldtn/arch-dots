@@ -1,18 +1,42 @@
 {
   "modules-left": [
+    "custom/separator",
     "custom/logo",
-    "hyprland/workspaces",
+    "custom/separator",
     "custom/separator-left",
+    "hyprland/workspaces",
+    "custom/separator-right",
     "hyprland/window"
   ],
   "modules-center": [],
   "modules-right": [
-    "pulseaudio",
+    "custom/separator-left",
+    "mpris",
+    "custom/spotify-icon",
+    "custom/separator-right",
+    "custom/separator",
+    "custom/separator-left",
+    "group/tray-expander",
+    "hyprland/language",
+    "custom/separator-right",
+    "custom/separator",
+    "custom/separator-left",
+    "wireplumber",
+    "custom/separator-right",
+    "custom/separator",
+    "custom/separator-left",
     "custom/pacman",
+    "custom/cpu",
+    "custom/separator-right",
+    "custom/separator",
+    "custom/separator-left",
     "network",
     "bluetooth",
-    "cpu",
     "custom/separator-right",
-    "clock"
+    "custom/separator",
+    "custom/separator-left",
+    "clock",
+    "custom/separator-right",
+    "custom/separator"
   ]
 }

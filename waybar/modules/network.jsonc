@@ -1,21 +1,13 @@
 {
   "network": {
-    "format-icons": [
-      "󰤯",
-      "󰤟",
-      "󰤢",
-      "󰤥",
-      "󰤨"
-    ],
-    "format": "{icon}",
-    "format-wifi": "{icon}",
-    "format-ethernet": "󰀂",
-    "format-disconnected": "󰖪",
-    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-    "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-    "tooltip-format-disconnected": "Disconnected",
-    "interval": 3,
-    "nospacing": 1,
-    "on-click": "alacritty --class=Impala -e impala"
+    "format-wifi": "",
+    "format-ethernet": "",
+    "tooltip-format": "<span color='#f2cdcd'> 󱂇 </span>{ifname} via <span color='#f2cdcd'>{gwaddr}</span>\n<span color='#fab387'> 󰕒 </span> {bandwidthUpBytes}  <span color='#a6e3a1'> 󰇚</span> {bandwidthDownBytes}",
+    "format-linked": "<span color='#f2cdcd'>󰈁 </span> {ifname} (No IP) ",
+    "format-disconnected": "<span color='#f38ba8'>󱘖 </span> Disconnected",
+    "format-alt": "{ifname}: {ipaddr}/{cidr} ",
+    "format-alt-click": "click-right",
+    "interval": 1,
+    "on-click": "ghostty --title='Network manager' --class=org.omarchy.impala -e impala"
   }
 }
