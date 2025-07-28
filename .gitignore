@@ -1,2 +1,28 @@
 # Ignore cache and sensitive files
 
+!bash
+!btop
+!calcure
+!cava
+!clipse
+!fastfetch
+!ghostty
+!hypr
+!kitty
+!lazygit
+!mako
+!nvim
+!rofi
+!spotify-player
+!starship
+!superfile
+!swayosd
+!Vencord
+!walker
+!waybar
+!zed
+!.gitignore
+!.gitmodules
+!mimeapps.list
+!user-dirs.dirs
+!user-dirs.locale
