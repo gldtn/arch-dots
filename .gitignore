@@ -1,5 +1,11 @@
 # Ignore cache and sensitive files
 
+*/
+*.log
+kdenlive*
+kwallet*
+pavucontrol.ini
+clipboard_history.json
 !bash
 !btop
 !calcure
